@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style> 
+
+       #container ul{
+       list-style:none;
+       min-height: 45px;
+     }
+       #container ul li{
+        background-color:#12BD09;
+      width: 150px;
+  border:1px solid white;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  float:left; 
+  color: white;
+  font-size: 18px;
+  position: relative;
+  
+  }
+  #container ul li:hover{
+  background-color: gray;
+  }
+   #container ul ul{
+   	display:none;
+   }
+    #container ul li:hover>ul {
+    	display:block; 
+    }
+     #container ul ul ul{
+     	margin-left: 150px;
+     	top: 0px;
+     	position:absolute;
+
+      
+     }
+
+  </style>
+	<title>semicolon.html</title>
+
+  <link rel="stylesheet" type="text/css" href="add.css">
+</head>
+<body style="background-color:#96AA43">
+	    <marquee><h1> WELLCOME TO OUR SEMICOLON GROUP </h1></marquee>
+        
+      <div>
+          <center><img src="semi.jpg"></center>
+        </div> 
+	     
+       <b><h1 align="center"style="color:blue ">SEMICOLON</h1></b>
+ 
+  <div id="container">
+  <ul>
+  	<hr>
+  	<li>HOME</li>
+  	<li>MEMBER
+  	<ul>
+  		<li><a href="First.html"> RIMON</a></li>
+  		<li><a href="kawser.html">KAWSER</a></li>
+  		<li><a href="safayet.html"> SAFAYET</a></li>
+  		<li><a href="arnob.html">ARNOB</a></li>
+      <li><a href="Add Member.html">ADD MEMBER</a></li>
+  	</ul>
+  </li>
+  
+    <li>VARSITY</li>
+  	<li>DEPARTMENT
+  		<ul>
+    <li class="CSE"><a href="a.html">CSE</a> </li>
+    <li class="CSE">EEE</li>
+    <li class="CSE">ENGLISH</li>
+    <li class="CSE">SOFTWARE</li>
+    <li class="CSE">PHARMACY</li>
+   
+  	</ul>
+  	</li>  	
+  	<li>WALLPAPER
+<ul>
+	<li><a href="http://photo.daffodilvarsity.edu.bd/">DIU GALARY</a></li>
+</ul>
+  	</li>
+  	<li>ABOUT
+      <ul>
+     <button class="btn" onclick="rimon()" >click me  
+    </button>
+    <script>
+      function rimon() {
+        alert("you have clicked rimon website!");
+        // body...
+      }
+    </script>
+  </ul>
+    </li>
+  	<li><a href="file:///E:/web%20degin/test/first%20website.html">CONTACT US</a></li>
+  	<li>HELP</li>
+  </ul> 
+   </div>
+   <div id="container"">
+   <div id="sliderbox">
+    <center><img src="varsity.jpg"></center>	
+   </div>
+</div>	
+</body>
+</html>

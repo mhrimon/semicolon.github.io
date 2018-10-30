@@ -1,0 +1,28 @@
+table{
+	background-color: white;
+	border: 2px solid red ; 
+}
+table,th,td{
+	border-collapse: collapse;
+	border: 2px solid red;
+}
+.F{
+	background-color: yellow;
+}
+.C{
+	background-color: grey;
+}
+.video{
+     width:500px;
+     background:yellow;
+     padding:10px;
+     border-radius:5px;
+     
+}
+.btn{
+	width: 80px;
+	height: 40px;
+	cursor: pointer;
+	background-color: orange;
+	border-radius: 15px;
+}

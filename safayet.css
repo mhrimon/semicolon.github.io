@@ -1,0 +1,9 @@
+.mydiv{
+width: 500px;
+height: 150px;
+background:linear-gradient(to right, red,blue,gray,yellow,green);
+background:-moz-linear-gradient(to right, red,blue,gray,yellow,green);
+background:-webkit-linear-gradient(to right, red,blue,gray,yellow,green);
+background:-o-linear-gradient(to right, red,blue,gray,yellow,green);
+
+}

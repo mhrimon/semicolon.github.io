@@ -1,0 +1,9 @@
+p{ background-image:url("img1.jpg"); 
+
+
+}
+.mydiv{
+	width: 200px;
+	height: 80px;
+	background: radial-gradient(red 10%,green 30%,blue 25%,yellow 35%);
+}

@@ -1,0 +1,39 @@
+*{margin: 0,padding:0}
+.wrapper{
+	width: 960px;
+	margin: 0 auto;
+}
+.box{
+	width: 300px; 
+	float: left;
+	margin-right:30px;
+}
+.nonbox{
+	margin-right:0px;
+}
+.r{
+	width: 180px;
+	margin: 0 auto;
+}
+.p{
+
+width: 20px;
+  left:360px;
+  position: absolute;
+top: 225px;
+}
+.d{
+	width: 20px;
+  left:360px;
+  position: absolute;
+top: 277px;
+}
+.G{
+    top:400px;
+	position: absolute;
+	left: 360px;
+}
+.E{  top: 325px;
+	position: absolute;
+	right: 875px;
+}
